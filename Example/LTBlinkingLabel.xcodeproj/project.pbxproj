@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		09496B103F1722D64EC94F02 /* Pods_LTBlinkingLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTBlinkingLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0BAE3CF1F1D2C22590F1AA /* Pods_LTBlinkingLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTBlinkingLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EECCB198573875BDEAD9F9E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1EECCB198573875BDEAD9F9E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4820F11849DF2FDE0E9CAB16 /* Pods-LTBlinkingLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTBlinkingLabel_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LTBlinkingLabel_Tests/Pods-LTBlinkingLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5FCCC20951759D5CBFB51D33 /* Pods-LTBlinkingLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTBlinkingLabel_Example.debug.xcconfig"; path = "Target Support Files/Pods-LTBlinkingLabel_Example/Pods-LTBlinkingLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LTBlinkingLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTBlinkingLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,9 +44,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		92293C4B86192F892D668A0B /* Pods-LTBlinkingLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTBlinkingLabel_Example.release.xcconfig"; path = "Target Support Files/Pods-LTBlinkingLabel_Example/Pods-LTBlinkingLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DB90ABC4A636027A0BEF95E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DB90ABC4A636027A0BEF95E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DFC0055F27D3FB4A8DEA8CEE /* Pods-LTBlinkingLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTBlinkingLabel_Tests.release.xcconfig"; path = "Target Support Files/Pods-LTBlinkingLabel_Tests/Pods-LTBlinkingLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FF4777150DD38F88DB1457F8 /* LTBlinkingLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LTBlinkingLabel.podspec; path = ../LTBlinkingLabel.podspec; sourceTree = "<group>"; };
+		FF4777150DD38F88DB1457F8 /* LTBlinkingLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LTBlinkingLabel.podspec; path = ../LTBlinkingLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				4820F11849DF2FDE0E9CAB16 /* Pods-LTBlinkingLabel_Tests.debug.xcconfig */,
 				DFC0055F27D3FB4A8DEA8CEE /* Pods-LTBlinkingLabel_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

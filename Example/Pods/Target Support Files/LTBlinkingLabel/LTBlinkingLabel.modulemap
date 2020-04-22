@@ -1,0 +1,6 @@
+framework module LTBlinkingLabel {
+  umbrella header "LTBlinkingLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

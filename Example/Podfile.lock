@@ -1,0 +1,16 @@
+PODS:
+  - LTBlinkingLabel (0.1.0)
+
+DEPENDENCIES:
+  - LTBlinkingLabel (from `../`)
+
+EXTERNAL SOURCES:
+  LTBlinkingLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LTBlinkingLabel: 0e7dac9d71dddb6a961d17932a20383394ad8126
+
+PODFILE CHECKSUM: ca5875b46fa2d9646e36d94b9a8d182a13eae78f
+
+COCOAPODS: 1.9.1
