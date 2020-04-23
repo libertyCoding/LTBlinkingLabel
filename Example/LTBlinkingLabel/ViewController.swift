@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import LTBlinkingLabel
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let lbl = LTBlinkingLabel()
     }
 
     override func didReceiveMemoryWarning() {

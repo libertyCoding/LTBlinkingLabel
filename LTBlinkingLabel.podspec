@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LTBlinkingLabel'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A subclass on UILabel that provides a blink.'
 
 # This description is used to generate tags and improve search results.
@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LTBlinkingLabel/Classes/**/*'
+  s.swift_versions = '5.1'
   
   # s.resource_bundles = {
   #   'LTBlinkingLabel' => ['LTBlinkingLabel/Assets/*.png']

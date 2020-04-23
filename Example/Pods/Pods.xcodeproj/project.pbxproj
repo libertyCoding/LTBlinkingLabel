@@ -12,10 +12,11 @@
 		6C1B4F96C11AB8C887BFB4106B066DF4 /* Pods-LTBlinkingLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 597AA6DAA0A0A344E6E4AEFAA210D4EB /* Pods-LTBlinkingLabel_Tests-dummy.m */; };
 		939A108AE75C541B282C14877C4B0270 /* Pods-LTBlinkingLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8FDC97ED5B3A220847619AF1489396 /* Pods-LTBlinkingLabel_Example-dummy.m */; };
 		94C90E16AAFFE5F77CC3C915FE99B0DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A817C918245143C3001306BE /* CodeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A817C917245143C3001306BE /* CodeLog.swift */; };
+		A852C7C524505D1D00D6337E /* LTBlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852C7C424505D1D00D6337E /* LTBlinkingLabel.swift */; };
 		B64813FCDA2D8625F5724B18782D7ECF /* Pods-LTBlinkingLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 252623A6054C8153B7589FBDF0701766 /* Pods-LTBlinkingLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B80439E464BD1B9C7B91419ADAF90BEC /* Pods-LTBlinkingLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3206C2F9F5A007D504950B635BB1F811 /* Pods-LTBlinkingLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCA534A58DEF3D72BC1AE1E38511FF86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		EBBB2D72F50C7C266A019EC3FBB2123F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6299A341BEB438664D7FB949163B97 /* ReplaceMe.swift */; };
 		FDE9AE68D507C3531A803274C247544E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,30 +41,31 @@
 		074EF116A8ABD144C052A6C3AD81B43B /* LTBlinkingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTBlinkingLabel-dummy.m"; sourceTree = "<group>"; };
 		252623A6054C8153B7589FBDF0701766 /* Pods-LTBlinkingLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LTBlinkingLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 		25437FA19F108C3EE8FA3F67390987B5 /* LTBlinkingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTBlinkingLabel.debug.xcconfig; sourceTree = "<group>"; };
-		291D2CE8B85BBC90854C4C9EDBF25FB3 /* Pods_LTBlinkingLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LTBlinkingLabel_Example.framework; path = "Pods-LTBlinkingLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BC4BD48BFE29AA92709CCA35A54D9DA /* Pods_LTBlinkingLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LTBlinkingLabel_Tests.framework; path = "Pods-LTBlinkingLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		291D2CE8B85BBC90854C4C9EDBF25FB3 /* Pods_LTBlinkingLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTBlinkingLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BC4BD48BFE29AA92709CCA35A54D9DA /* Pods_LTBlinkingLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTBlinkingLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C44C264E758836AEA950F152CDCB41D /* Pods-LTBlinkingLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LTBlinkingLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2C9EA0D75B5C7F905F0CF2F534CCA583 /* LTBlinkingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTBlinkingLabel-prefix.pch"; sourceTree = "<group>"; };
 		3206C2F9F5A007D504950B635BB1F811 /* Pods-LTBlinkingLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LTBlinkingLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3882B89663E2CBCBD34B9BD1FF4550EC /* Pods-LTBlinkingLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTBlinkingLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4901BDBF5DBBB280376D935A7E88E2A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4B6299A341BEB438664D7FB949163B97 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = LTBlinkingLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4901BDBF5DBBB280376D935A7E88E2A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		57606C41938BC5B09CF15618EA84E017 /* LTBlinkingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LTBlinkingLabel.modulemap; sourceTree = "<group>"; };
 		597AA6DAA0A0A344E6E4AEFAA210D4EB /* Pods-LTBlinkingLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LTBlinkingLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		5E1E60FE918C9A575B677A33A1CA7972 /* Pods-LTBlinkingLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTBlinkingLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		623E47D3653B82C228C4F95826607767 /* Pods-LTBlinkingLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LTBlinkingLabel_Tests.modulemap"; sourceTree = "<group>"; };
-		79CB062C6489D2D7ABD5AE7D605A3AA3 /* LTBlinkingLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LTBlinkingLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		79CB062C6489D2D7ABD5AE7D605A3AA3 /* LTBlinkingLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LTBlinkingLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		84D2052BECAA86A65737C39274E96D72 /* Pods-LTBlinkingLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTBlinkingLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
 		98B06D258060A95E0FEB1DDAC0AD06BE /* Pods-LTBlinkingLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LTBlinkingLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		99AAA58B4446180208DB72AF08EF9CFF /* Pods-LTBlinkingLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LTBlinkingLabel_Example-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F8FDC97ED5B3A220847619AF1489396 /* Pods-LTBlinkingLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LTBlinkingLabel_Example-dummy.m"; sourceTree = "<group>"; };
 		A7ADE7D5B2916F64C48EC2462FAFA6A3 /* Pods-LTBlinkingLabel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LTBlinkingLabel_Tests-Info.plist"; sourceTree = "<group>"; };
+		A817C917245143C3001306BE /* CodeLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeLog.swift; sourceTree = "<group>"; };
+		A852C7C424505D1D00D6337E /* LTBlinkingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTBlinkingLabel.swift; sourceTree = "<group>"; };
 		B2364E34F0413E742BA3D4EE2AF8CA35 /* Pods-LTBlinkingLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LTBlinkingLabel_Example.modulemap"; sourceTree = "<group>"; };
-		CA7F7DF6D79939BE81130C95F9A2F985 /* LTBlinkingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LTBlinkingLabel.framework; path = LTBlinkingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7F7DF6D79939BE81130C95F9A2F985 /* LTBlinkingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTBlinkingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBB92A16A2E3586AEEF4051859B4A03 /* Pods-LTBlinkingLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LTBlinkingLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DB1238D704491762ACDFE1A01031F17F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DB1238D704491762ACDFE1A01031F17F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD2036CFF6D96E58B40EAED314498C82 /* LTBlinkingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTBlinkingLabel-umbrella.h"; sourceTree = "<group>"; };
 		DED32F190194622A75BC88DBECE0F49C /* Pods-LTBlinkingLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTBlinkingLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EE66009CDB76DFB0133555EFB531E32E /* LTBlinkingLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LTBlinkingLabel-Info.plist"; sourceTree = "<group>"; };
@@ -137,7 +139,8 @@
 		3942C1E4413001D68E9171F5B8981D99 /* LTBlinkingLabel */ = {
 			isa = PBXGroup;
 			children = (
-				4B6299A341BEB438664D7FB949163B97 /* ReplaceMe.swift */,
+				A852C7C424505D1D00D6337E /* LTBlinkingLabel.swift */,
+				A817C917245143C3001306BE /* CodeLog.swift */,
 				A5867401DCF2B3315D269527F5CDE71F /* Pod */,
 				BF10B4969AB79C289824EA92F7004DEE /* Support Files */,
 			);
@@ -375,8 +378,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A852C7C524505D1D00D6337E /* LTBlinkingLabel.swift in Sources */,
 				69A17635BDB6F4A48EE36DD97E09A8DB /* LTBlinkingLabel-dummy.m in Sources */,
-				EBBB2D72F50C7C266A019EC3FBB2123F /* ReplaceMe.swift in Sources */,
+				A817C918245143C3001306BE /* CodeLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,8 +593,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
