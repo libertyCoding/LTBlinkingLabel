@@ -12,8 +12,8 @@
 		6C1B4F96C11AB8C887BFB4106B066DF4 /* Pods-LTBlinkingLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 597AA6DAA0A0A344E6E4AEFAA210D4EB /* Pods-LTBlinkingLabel_Tests-dummy.m */; };
 		939A108AE75C541B282C14877C4B0270 /* Pods-LTBlinkingLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8FDC97ED5B3A220847619AF1489396 /* Pods-LTBlinkingLabel_Example-dummy.m */; };
 		94C90E16AAFFE5F77CC3C915FE99B0DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A817C918245143C3001306BE /* CodeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A817C917245143C3001306BE /* CodeLog.swift */; };
-		A852C7C524505D1D00D6337E /* LTBlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852C7C424505D1D00D6337E /* LTBlinkingLabel.swift */; };
+		A817C9212451468A001306BE /* LTBlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A817C91E24514689001306BE /* LTBlinkingLabel.swift */; };
+		A817C9232451468A001306BE /* CodeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A817C9202451468A001306BE /* CodeLog.swift */; };
 		B64813FCDA2D8625F5724B18782D7ECF /* Pods-LTBlinkingLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 252623A6054C8153B7589FBDF0701766 /* Pods-LTBlinkingLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B80439E464BD1B9C7B91419ADAF90BEC /* Pods-LTBlinkingLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3206C2F9F5A007D504950B635BB1F811 /* Pods-LTBlinkingLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCA534A58DEF3D72BC1AE1E38511FF86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -60,8 +60,8 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F8FDC97ED5B3A220847619AF1489396 /* Pods-LTBlinkingLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LTBlinkingLabel_Example-dummy.m"; sourceTree = "<group>"; };
 		A7ADE7D5B2916F64C48EC2462FAFA6A3 /* Pods-LTBlinkingLabel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LTBlinkingLabel_Tests-Info.plist"; sourceTree = "<group>"; };
-		A817C917245143C3001306BE /* CodeLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeLog.swift; sourceTree = "<group>"; };
-		A852C7C424505D1D00D6337E /* LTBlinkingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTBlinkingLabel.swift; sourceTree = "<group>"; };
+		A817C91E24514689001306BE /* LTBlinkingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LTBlinkingLabel.swift; path = LTBlinkingLabel/Classes/LTBlinkingLabel.swift; sourceTree = "<group>"; };
+		A817C9202451468A001306BE /* CodeLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CodeLog.swift; path = LTBlinkingLabel/Classes/CodeLog.swift; sourceTree = "<group>"; };
 		B2364E34F0413E742BA3D4EE2AF8CA35 /* Pods-LTBlinkingLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LTBlinkingLabel_Example.modulemap"; sourceTree = "<group>"; };
 		CA7F7DF6D79939BE81130C95F9A2F985 /* LTBlinkingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTBlinkingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBB92A16A2E3586AEEF4051859B4A03 /* Pods-LTBlinkingLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LTBlinkingLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -139,8 +139,8 @@
 		3942C1E4413001D68E9171F5B8981D99 /* LTBlinkingLabel */ = {
 			isa = PBXGroup;
 			children = (
-				A852C7C424505D1D00D6337E /* LTBlinkingLabel.swift */,
-				A817C917245143C3001306BE /* CodeLog.swift */,
+				A817C91E24514689001306BE /* LTBlinkingLabel.swift */,
+				A817C9202451468A001306BE /* CodeLog.swift */,
 				A5867401DCF2B3315D269527F5CDE71F /* Pod */,
 				BF10B4969AB79C289824EA92F7004DEE /* Support Files */,
 			);
@@ -320,6 +320,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					F8DED5B9D0B55E20CD98CBD10C4F7919 = {
+						LastSwiftMigration = 1120;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -378,9 +383,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A852C7C524505D1D00D6337E /* LTBlinkingLabel.swift in Sources */,
 				69A17635BDB6F4A48EE36DD97E09A8DB /* LTBlinkingLabel-dummy.m in Sources */,
-				A817C918245143C3001306BE /* CodeLog.swift in Sources */,
+				A817C9212451468A001306BE /* LTBlinkingLabel.swift in Sources */,
+				A817C9232451468A001306BE /* CodeLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F02297E1D6CF60EF49F3EC509352C1B5 /* LTBlinkingLabel.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -479,6 +485,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 25437FA19F108C3EE8FA3F67390987B5 /* LTBlinkingLabel.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -499,6 +506,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
