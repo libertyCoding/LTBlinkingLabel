@@ -9,9 +9,12 @@ import Foundation
 
 public class LTBlinkingLabel : UILabel {
     public func startBlinking() {
-        UIView.animate(withDuration: 0.25, delay:0.0, options:UIViewAnimationOptions.repeat, animations: {
-            self.alpha = 0
-            }, completion: nil)
+
+        
+//        UIView.animate(withDuration: 0.25, delay:0.0, options:, animations: {
+//            self.alpha = 0
+//            }, completion: nil)
+        
     }
  
     public func stopBlinking() {
